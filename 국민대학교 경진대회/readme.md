@@ -11,3 +11,8 @@
 
 ---
 
+- **공행성쌍 탐색 파라미터:** max_lag = 12, min_nonzero = 36, corr_threshold=0.35
+- LightGBM, XGBoost, Histgradientboosting 을 메인으로 사용
+- 1개의 SEED, 2024-07 부터 2024-06 까지의 데이터를 사용해 12개의 fold로 학습
+- Linear, Ridge, Lasso, MLP를 서브 모델로 사용
+- 각 모델의 가중치를 다르게 하여 결과를 구함
