@@ -10,4 +10,4 @@
 ---
   YOLO를 사용해 Face crop
   
-  yermandy/GenD_PE_L 사전 학습 모델 사용 [Model Link](https://huggingface.co/collections/yermandy/gend)
+  yermandy/GenD 사전 학습 모델 사용 [Model Link](https://huggingface.co/collections/yermandy/gend)
