@@ -2,10 +2,10 @@
 
 ### [Competition Link](https://dacon.io/competitions/official/236628/overview/description)
 
-- 광고 클릭 예측(CTR) 모델 개발
-- 앱 내 광고 지면에서의 외부 광고 노출 및 클릭 데이터를 기반으로 사용자가 광고를 클릭할 확률을 예측
-- 주최: Toss, Dacon
-- 성과: 최종 (52등 / 709)
+- 딥페이크 탐지 AI 모델 개발
+- 다양한 이미지(jpg, jpeg, png, jfif) 또는 동영상(mp4, mov) 데이터를 반드시 이미지 단위로 입력으로 받아, 해당 콘텐츠가 진짜(Real)인지 딥페이크(Fake)인지 분류하는 AI 모델을 개발
+- 주최/주관: 헥토(Hecto)
+- 성과: 최종 (39등 / 458)
 
 ---
   YOLO를 사용해 Face crop
