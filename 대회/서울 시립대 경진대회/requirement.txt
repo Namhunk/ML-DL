@@ -1,0 +1,8 @@
+PyYAML==6.0.1
+joblib==1.4.2
+optuna==4.5.0
+numpy==1.26.4
+pandas==2.3.3
+tqdm==4.66.5
+autogluon==1.4.0
+torch==2.9.1+cu126
