@@ -130,7 +130,7 @@ feat_names = base_hist_model.feature_names_in_
 ```
 교통사고 위험 예측 AI 대회/
 ├─ EDA.ipynb                # 탐색적 데이터 분석
-├─ inference.py             # 전처리 + 파생 + 2단계 앙상블 추론 (전체 파이프라인 포함)
+├─ inference.py             # 전처리 + 파생 + 2단계 앙상블 추론 (추론 파이프라인 전체)
 ├─ model/
 │  ├─ model_A_FINAL.pkl     # A 검사 1단계 (3-Seed 리스트)
 │  ├─ model_A_META.pkl      # A 검사 2단계 보정 모델
@@ -171,3 +171,4 @@ python inference.py
 - `preprocess_A` / `preprocess_B` 에 A1~A5, B1~B8 블록이 거의 복붙 구조 (베이스라인 그대로)\
   소검사 스펙을 dict로 선언하고 루프로 생성하면 크게 축소 가능
 - **B 검사는 베이스라인에서 거의 손대지 않음** — A에 적용한 분포 통계·조건 세분화를 B에도 확장 가능
+- **학습 스크립트가 저장소에 없어 `model/*.pkl` 재현이 불가능** — `train.py` 분리 필요
