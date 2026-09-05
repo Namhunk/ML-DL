@@ -88,7 +88,7 @@ def get_blend_weight(pred, lower, upper, max_weight):
 ├─ EDA.ipynb              # 탐색적 데이터 분석
 ├─ Autogluon_train.py     # 통계 맵 생성 → 피처 생성 → 4개 모델 학습 → Optuna 블렌딩 최적화
 ├─ inference.py           # 저장된 맵/파라미터/모델 로드 → 추론 → 제출 파일 생성
-└─ requirement.txt        # 의존성
+└─ requirements.txt        # 의존성
 ```
 
 학습 시 생성되는 산출물
