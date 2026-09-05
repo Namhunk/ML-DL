@@ -104,7 +104,7 @@ params/best_params.yaml                          # Optuna 최적 블렌딩 파�
 데이터는 `./open_track1/` 에 위치 (`train.csv`, `test.csv`, `match_info.csv`, `sample_submission.csv`)
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 python Autogluon_train.py
 python inference.py
 ```
