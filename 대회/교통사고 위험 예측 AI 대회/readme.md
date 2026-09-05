@@ -38,7 +38,7 @@ A 검사와 B 검사는 **서로 다른 컬럼 체계**를 가지므로 전 과�
 전처리 골격은 Dacon 공식 베이스라인(Train / Inference)을 그대로 사용
 
 > 시퀀스 문자열 → 평균·표준편차·비율 축약(`seq_mean`, `seq_std`, `seq_rate`, `masked_mean_*`)\
-> → A1~A5 / B1~B8 소검사별 기본 피처 → 조건 간 차이(gap)·속도-정확도 트레이드오프·`rt_cv`·`RiskScore` 파생\
+> → A1 ~ A5 / B1 ~ B8 소검사별 기본 피처 → 조건 간 차이(gap)·속도-정확도 트레이드오프·`rt_cv`·`RiskScore` 파생\
 > → 피처 정렬(`align_to_model`) → 단일 LightGBM 예측
 
 베이스라인의 검증 AUC는 A 0.5108 / B 0.4999 로 사실상 무작위 수준\
@@ -171,4 +171,3 @@ python inference.py
 - `preprocess_A` / `preprocess_B` 에 A1~A5, B1~B8 블록이 거의 복붙 구조 (베이스라인 그대로)\
   소검사 스펙을 dict로 선언하고 루프로 생성하면 크게 축소 가능
 - **B 검사는 베이스라인에서 거의 손대지 않음** — A에 적용한 분포 통계·조건 세분화를 B에도 확장 가능
-- **학습 스크립트가 저장소에 없어 `model/*.pkl` 재현이 불가능** — `train.py` 분리 필요
