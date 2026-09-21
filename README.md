@@ -5,7 +5,7 @@ ML/DL 기록 (공부, 연습, 대회 기록용(대회는 100위권 이내만 기
 Dacon Profile
 👉[Profile Link](https://dacon.io/myprofile/502298/competition)
 
-Project Overview
+대회 코드 및 내용
 👉 [Namhunk/ML-DL/대회](https://github.com/Namhunk/ML-DL/tree/main/%EB%8C%80%ED%9A%8C)
 
 | 🏆 대회 | 🗓️ 기간 | 🏅 순위 |
