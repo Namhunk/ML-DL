@@ -1,6 +1,13 @@
 # ML-DL
 ML/DL 기록 (공부, 연습, 대회 기록용(대회는 100위권 이내만 기록))
-[Profile Link](https://dacon.io/myprofile/502298/competition)
+
+### 대회 기록
+Dacon Profile
+👉[Profile Link](https://dacon.io/myprofile/502298/competition)
+
+Project Overview
+👉 [Namhunk/ML-DL/대회](https://github.com/Namhunk/ML-DL/대회)
+
 | 🏆 대회 | 🗓️ 기간 | 🏅 순위 |
 | :---: | :---: | :---: |
 | 토스 NEXT ML CHALLENGE: 광고 클릭 예측(CTR) 모델 개발 | 2025.09.08 - 2025.10.13 | 52 / 709 |
