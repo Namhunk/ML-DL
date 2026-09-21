@@ -6,7 +6,7 @@ Dacon Profile
 👉[Profile Link](https://dacon.io/myprofile/502298/competition)
 
 Project Overview
-👉 [Namhunk/ML-DL/대회](https://github.com/Namhunk/ML-DL/대회)
+👉 [Namhunk/ML-DL/대회](https://github.com/Namhunk/ML-DL/tree/main/%EB%8C%80%ED%9A%8C)
 
 | 🏆 대회 | 🗓️ 기간 | 🏅 순위 |
 | :---: | :---: | :---: |
